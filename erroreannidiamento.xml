@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- questo documento contiene dati per il corso di Codifica di Testi
+    nomefile: erroreannidiamento.xml
+    Autore: Gabriele Ciardi
+    Data: 25/05/21
+-->
+
+<testo>
+<p> prova testo<riga>  </p>
+  secondo testo </riga>
+
+</testo>
