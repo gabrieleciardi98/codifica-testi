@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+	
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeaderrr>
+		<fileDesc>
+			<titleStmt>
+				<title>Codifica di un articolo di una cartolina</title>
+				<respStmt>
+					<resp>Conversione TEI P5 a cura di</resp>
+					<name>Gabriele Ciardi</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Pubblicazione privata</publisher>
+				<availability status="free">
+					<p>Il file non ha licenza</p>
+				</availability>
+				<date>22/06/2021</date>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>
+					<title>Vincenzo Bellini a Carlo Pepoli</title>
+					<author>Vincenzo Bellini</author>
+					<pubPlace>Puteaux</pubPlace>
+					<date>26 giugno 1834</date>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<p>Codifica in Tei versione P5 partendo un'immagine della lettera</p>
+		</encodingDesc>
+	</teiHeaderrr>
+	<facsimile>
+		<surface xml:id="page1" start="#page-1" ulx="0" uly="0" lrx="1273" lry="452">
+			<graphic url="LL1.16_0001.jpg"/>
+			<zone xml:id="intestazione" ulx="1" uly="3" lrx="1271" lry="190"/>
+			<zone xml:id="saluto" ulx="187" uly="189" lrx="941" lry="268"/>
+			<zone xml:id="contenuto" ulx="304" uly="339" lrx="1269" lry="448"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div type="lettera">
+				<pb facs="#page1" xml:id="page-1"/>
+				<opener><!-- facs per associare ad immagire -->
+					<dateline facs="#intestazione">Juin <num>26</num>
+					</dateline>
+					<salute facs="#saluto">Mio caro Carluccio</salute>
+				</opener>
+				<p facs="#corpo">avendo steso l’intero duetto</p>
+			</div>
+		</body>
+	</text>
+</TEI>
